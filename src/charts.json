@@ -1,0 +1,78 @@
+{
+    "vegan": {
+        "underweight": [
+            {"day": "Monday", "breakfast": "Avocado Toast", "midMeal": "Mixed Nuts", "lunch": "Chickpea Salad", "evening": "Green Smoothie", "dinner": "Vegetable Stir-fry" },
+            {"day": "Tuesday", "breakfast": "Chia Pudding", "midMeal": "Hummus with Veggies", "lunch": "Quinoa Salad", "evening": "Fruit Salad", "dinner": "Tofu Curry" },
+            {"day": "Wednesday", "breakfast": "Smoothie Bowl", "midMeal": "Roasted Chickpeas", "lunch": "Vegan Sushi", "evening": "Edamame", "dinner": "Zucchini Noodles" },
+            {"day": "Thursday", "breakfast": "Acai Bowl", "midMeal": "Almond Butter Banana", "lunch": "Sweet Potato Buddha Bowl", "evening": "Kale Chips", "dinner": "Veggie Wrap" },
+            {"day": "Friday", "breakfast": "Fruit Smoothie", "midMeal": "Rice Cake with Peanut Butter", "lunch": "Mediterranean Salad", "evening": "Frozen Grapes", "dinner": "Stuffed Bell Peppers" },
+            {"day": "Saturday", "breakfast": "Coconut Yogurt with Granola", "midMeal": "Rice Paper Rolls", "lunch": "Vegetable Curry", "evening": "Fruit Skewers", "dinner": "Cauliflower Steak" },
+            {"day": "Sunday", "breakfast": "Pancakes with Maple Syrup", "midMeal": "Roasted Seaweed Snacks", "lunch": "Vegan Pizza", "evening": "Carrot Sticks with Hummus", "dinner": "Portobello Mushroom Burger" }
+        ],
+        "normalWeight": [
+            {"day": "Monday", "breakfast": "Oatmeal with Berries", "midMeal": "Almonds", "lunch": "Tofu Salad", "evening": "Green Tea", "dinner": "Stir-fried Vegetables with Brown Rice" },
+            {"day": "Tuesday", "breakfast": "Whole Grain Toast with Almond Butter", "midMeal": "Apple Slices", "lunch": "Lentil Soup", "evening": "Veggie Sticks with Hummus", "dinner": "Grilled Tempeh with Quinoa" },
+            {"day": "Wednesday", "breakfast": "Smoothie with Spinach and Banana", "midMeal": "Cashews", "lunch": "Veggie Wrap", "evening": "Mixed Berry Bowl", "dinner": "Chickpea Curry with Basmati Rice" },
+            {"day": "Thursday", "breakfast": "Chia Seed Pudding", "midMeal": "Orange Slices", "lunch": "Black Bean Salad", "evening": "Kale Chips", "dinner": "Stuffed Peppers with Couscous" },
+            {"day": "Friday", "breakfast": "Whole Grain Pancakes with Fruit", "midMeal": "Trail Mix", "lunch": "Veggie Burger", "evening": "Greek Yogurt with Honey", "dinner": "Spaghetti with Marinara Sauce" },
+            {"day": "Saturday", "breakfast": "Fruit Smoothie with Protein Powder", "midMeal": "Walnuts", "lunch": "Grilled Portobello Mushrooms", "evening": "Vegetable Sticks with Dip", "dinner": "Tofu Stir-fry with Noodles" },
+            {"day": "Sunday", "breakfast": "Whole Grain Waffles with Maple Syrup", "midMeal": "Pistachios", "lunch": "Miso Soup", "evening": "Edamame", "dinner": "Vegetable Pad Thai" }
+        ],
+        "overweight": [
+            {"day": "Monday", "breakfast": "Granola with Almond Milk", "midMeal": "Trail Mix", "lunch": "Vegan Burger with Sweet Potato Fries", "evening": "Roasted Chickpeas", "dinner": "Stir-fried Tofu with Brown Rice" },
+            {"day": "Tuesday", "breakfast": "Green Smoothie Bowl", "midMeal": "Chia Seed Pudding", "lunch": "Tempeh Tacos", "evening": "Mixed Nuts", "dinner": "Quinoa Stuffed Peppers" },
+            {"day": "Wednesday", "breakfast": "Acai Bowl", "midMeal": "Hummus and Veggie Sticks", "lunch": "Spaghetti Squash Pad Thai", "evening": "Dried Fruit", "dinner": "Vegan Alfredo Pasta" },
+            {"day": "Thursday", "breakfast": "Mango Coconut Chia Pudding", "midMeal": "Cucumber Slices with Guacamole", "lunch": "Vegan Mac and Cheese", "evening": "Granola Bars", "dinner": "Veggie Stir-fry with Tofu" },
+            {"day": "Friday", "breakfast": "Peanut Butter Banana Smoothie", "midMeal": "Rice Cake with Almond Butter", "lunch": "Vegan Burrito Bowl", "evening": "Popcorn", "dinner": "Portobello Mushroom Steaks" },
+            {"day": "Saturday", "breakfast": "Pineapple Mango Smoothie", "midMeal": "Celery with Peanut Butter", "lunch": "Vegan Sushi Rolls", "evening": "Roasted Edamame", "dinner": "Lentil Soup with Whole Grain Bread" },
+            {"day": "Sunday", "breakfast": "Blueberry Oatmeal with Almond Milk", "midMeal": "Apple Slices with Almond Butter", "lunch": "Vegan Pad Thai", "evening": "Veggie Chips", "dinner": "Chickpea Curry with Brown Rice" }
+        ],
+        "obese": [
+            {"day": "Monday", "breakfast": "Vegan Pancakes with Maple Syrup", "midMeal": "Mixed Fruit Bowl", "lunch": "Vegan Caesar Salad", "evening": "Energy Bites", "dinner": "Veggie Stir-fry with Quinoa" },
+            {"day": "Tuesday", "breakfast": "Tofu Scramble", "midMeal": "Veggie Sticks with Hummus", "lunch": "Mushroom Lentil Soup", "evening": "Dark Chocolate", "dinner": "Vegan Lasagna" },
+            {"day": "Wednesday", "breakfast": "Banana Walnut Oatmeal", "midMeal": "Greek Salad", "lunch": "Vegan Chili", "evening": "Rice Crackers with Guacamole", "dinner": "Stuffed Acorn Squash" },
+            {"day": "Thursday", "breakfast": "Berry Smoothie with Spinach", "midMeal": "Trail Mix", "lunch": "Vegan Shepherd's Pie", "evening": "Dried Fruit", "dinner": "Veggie Lo Mein" },
+            {"day": "Friday", "breakfast": "Sweet Potato Breakfast Hash", "midMeal": "Cucumber Slices with Hummus", "lunch": "Vegan BBQ Pulled Jackfruit Sandwich", "evening": "Mixed Nuts", "dinner": "Vegan Paella" },
+            {"day": "Saturday", "breakfast": "Quinoa Breakfast Bowl", "midMeal": "Fruit Salad", "lunch": "Vegan Stuffed Bell Peppers", "evening": "Trail Mix", "dinner": "Coconut Lentil Curry" },
+            {"day": "Sunday", "breakfast": "Tofu Scramble Wrap", "midMeal": "Mixed Nuts", "lunch": "Vegan Mushroom Risotto", "evening": "Energy Balls", "dinner": "Veggie Pizza with Cauliflower Crust" }
+        ]
+    },
+    "nonVegan": {
+        "underweight": [
+            {"day": "Monday", "breakfast": "Scrambled Eggs", "midMeal": "Greek Yogurt with Honey", "lunch": "Chicken Caesar Salad", "evening": "Cheese and Crackers", "dinner": "Grilled Salmon with Asparagus" },
+            {"day": "Tuesday", "breakfast": "Sunny Side Egg and Juice", "midMeal": "Greek Yogurt with Honey", "lunch": "Chicken Caesar Salad", "evening": "Chicken Keema", "dinner": "Mutton Masala Gravy" },
+            {"day": "Wednesday", "breakfast": "Scrambled Eggs", "midMeal": "Greek Yogurt with Honey", "lunch": "Chicken Caesar Salad", "evening": "Cheese and Crackers", "dinner": "Grilled Salmon with Asparagus" },
+            {"day": "Thursday", "breakfast": "Sunny Side Egg and Juice", "midMeal": "Greek Yogurt with Honey", "lunch": "Chicken Caesar Salad", "evening": "Chicken Keema", "dinner": "Mutton Masala Gravy" },
+            {"day": "Friday", "breakfast": "Scrambled Eggs", "midMeal": "Greek Yogurt with Honey", "lunch": "Chicken Caesar Salad", "evening": "Cheese and Crackers", "dinner": "Grilled Salmon with Asparagus" },
+            {"day": "Saturday", "breakfast": "Sunny Side Egg and Juice", "midMeal": "Greek Yogurt with Honey", "lunch": "Chicken Caesar Salad", "evening": "Chicken Keema", "dinner": "Mutton Masala Gravy" },
+            {"day": "Sunday", "breakfast": "Scrambled Eggs", "midMeal": "Greek Yogurt with Honey", "lunch": "Chicken Caesar Salad", "evening": "Cheese and Crackers", "dinner": "Grilled Salmon with Asparagus" }
+        ],
+        "normalWeight": [
+            {"day": "Monday", "breakfast": "Bacon and Eggs", "midMeal": "Cheese Sticks", "lunch": "Tuna Sandwich", "evening": "Deviled Eggs", "dinner": "Chicken Stir-Fry" },
+            {"day": "Tuesday", "breakfast": "Omelette with Ham and Cheese", "midMeal": "Protein Shake", "lunch": "Turkey Club Sandwich", "evening": "Cottage Cheese with Pineapple", "dinner": "Chicken Biryani" },
+            {"day": "Wednesday", "breakfast": "Bacon and Eggs", "midMeal": "Cheese Sticks", "lunch": "Tuna Sandwich", "evening": "Deviled Eggs", "dinner": "Chicken Stir-Fry" },
+            {"day": "Thursday", "breakfast": "Omelette with Ham and Cheese", "midMeal": "Protein Shake", "lunch": "Turkey Club Sandwich", "evening": "Cottage Cheese with Pineapple", "dinner": "Chicken Biryani" },
+            {"day": "Friday", "breakfast": "Bacon and Eggs", "midMeal": "Cheese Sticks", "lunch": "Tuna Sandwich", "evening": "Deviled Eggs", "dinner": "Chicken Stir-Fry" },
+            {"day": "Saturday", "breakfast": "Omelette with Ham and Cheese", "midMeal": "Protein Shake", "lunch": "Turkey Club Sandwich", "evening": "Cottage Cheese with Pineapple", "dinner": "Chicken Biryani" },
+            {"day": "Sunday", "breakfast": "Bacon and Eggs", "midMeal": "Cheese Sticks", "lunch": "Tuna Sandwich", "evening": "Deviled Eggs", "dinner": "Chicken Stir-Fry" }
+        ],
+        "overweight": [
+            {"day": "Monday", "breakfast": "Sausage and Egg Muffins", "midMeal": "Cheese and Crackers", "lunch": "Grilled Chicken Wrap", "evening": "Chicken Jerky", "dinner": "Salmon with Quinoa and Broccoli" },
+            {"day": "Tuesday", "breakfast": "Breakfast Burrito with Sausage", "midMeal": "Yogurt with Granola", "lunch": "BBQ Chicken Salad", "evening": "String Cheese", "dinner": "Chicken and Vegetable Skewers" },
+            {"day": "Wednesday", "breakfast": "Sausage and Egg Muffins", "midMeal": "Cheese and Crackers", "lunch": "Grilled Chicken Wrap", "evening": "Chicken Jerky", "dinner": "Salmon with Quinoa and Broccoli" },
+            {"day": "Thursday", "breakfast": "Breakfast Burrito with Sausage", "midMeal": "Yogurt with Granola", "lunch": "BBQ Chicken Salad", "evening": "String Cheese", "dinner": "Chicken and Vegetable Skewers" },
+            {"day": "Friday", "breakfast": "Sausage and Egg Muffins", "midMeal": "Cheese and Crackers", "lunch": "Grilled Chicken Wrap", "evening": "Chicken Jerky", "dinner": "Salmon with Quinoa and Broccoli" },
+            {"day": "Saturday", "breakfast": "Breakfast Burrito with Sausage", "midMeal": "Yogurt with Granola", "lunch": "BBQ Chicken Salad", "evening": "String Cheese", "dinner": "Chicken and Vegetable Skewers" },
+            {"day": "Sunday", "breakfast": "Sausage and Egg Muffins", "midMeal": "Cheese and Crackers", "lunch": "Grilled Chicken Wrap", "evening": "Chicken Jerky", "dinner": "Salmon with Quinoa and Broccoli" }
+        ],
+        "obese": [
+            {"day": "Monday", "breakfast": "Full English Breakfast", "midMeal": "Cheese and Grapes", "lunch": "Bacon Ranch Chicken Salad", "evening": "Chicken Jerky", "dinner": "Steak with Baked Potato and Green Beans" },
+            {"day": "Tuesday", "breakfast": "Breakfast Sausage and Pancakes", "midMeal": "Greek Yogurt with Granola", "lunch": "Meatball Sub", "evening": "String Cheese", "dinner": "Chicken and Mushroom Risotto" },
+            {"day": "Wednesday", "breakfast": "Full English Breakfast", "midMeal": "Cheese and Grapes", "lunch": "Bacon Ranch Chicken Salad", "evening": "Chicken Jerky", "dinner": "Steak with Baked Potato and Green Beans" },
+            {"day": "Thursday", "breakfast": "Breakfast Sausage and Pancakes", "midMeal": "Greek Yogurt with Granola", "lunch": "Meatball Sub", "evening": "String Cheese", "dinner": "Chicken and Mushroom Risotto" },
+            {"day": "Friday", "breakfast": "Full English Breakfast", "midMeal": "Cheese and Grapes", "lunch": "Bacon Ranch Chicken Salad", "evening": "Chicken Jerky", "dinner": "Steak with Baked Potato and Green Beans" },
+            {"day": "Saturday", "breakfast": "Breakfast Sausage and Pancakes", "midMeal": "Greek Yogurt with Granola", "lunch": "Meatball Sub", "evening": "String Cheese", "dinner": "Chicken and Mushroom Risotto" },
+            {"day": "Sunday", "breakfast": "Full English Breakfast", "midMeal": "Cheese and Grapes", "lunch": "Bacon Ranch Chicken Salad", "evening": "Chicken Jerky", "dinner": "Steak with Baked Potato and Green Beans" }
+        ]
+    }
+}
