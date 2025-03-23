@@ -3,128 +3,122 @@ import styled from "styled-components";
 const Features = () => {
   return (
     <Container id="features">
-      <h2>FEATURES WE PROVIDE</h2>
-      <Feature>
-        <Section>
-          <div className="centered-image">
+      <Title>FEATURES WE PROVIDE</Title>
+      <FeatureContainer>
+        <FeatureSection>
+          <FeatureImage>
             <img src="../../src/assets/BMI.jpg" alt="BMI" />
-          </div>
-          <div>
-            <p>Calculating BMI is easier</p>
-            <p>
-              We calculate your BMI index from data like age, height, weight
-            </p>
-          </div>
-        </Section>
-        <Section>
-          <div className="centered-image">
-            <img src="../../src/assets/NUTRI.jpg" alt="BMI" />
-          </div>
-          <div>
-            <p>Personalized Nutrition Plans</p>
-            <p>
+          </FeatureImage>
+          <FeatureContent>
+            <FeatureTitle>Calculating BMI is easier</FeatureTitle>
+            <FeatureDescription>
+              We calculate your BMI index from data like age, height, weight.
+            </FeatureDescription>
+          </FeatureContent>
+        </FeatureSection>
+        <FeatureSection>
+          <FeatureImage>
+            <img src="../../src/assets/NUTRI.jpg" alt="Nutrition" />
+          </FeatureImage>
+          <FeatureContent>
+            <FeatureTitle>Personalized Nutrition Plans</FeatureTitle>
+            <FeatureDescription>
               Receive a tailored nutrition plan designed specifically for your
               body and goals.
-            </p>
-          </div>
-        </Section>
-        <Section>
-          <div className="centered-image">
-            <img src="../../src/assets/TRACKING.jpg" alt="BMI" />
-          </div>
-          <div>
-            <p>Food Tracking and Analysis</p>
-            <p>
+            </FeatureDescription>
+          </FeatureContent>
+        </FeatureSection>
+        <FeatureSection>
+          <FeatureImage>
+            <img src="../../src/assets/TRACKING.jpg" alt="Tracking" />
+          </FeatureImage>
+          <FeatureContent>
+            <FeatureTitle>Food Tracking and Analysis</FeatureTitle>
+            <FeatureDescription>
               Effortlessly track your food intake using our user-friendly app.
-            </p>
-          </div>
-        </Section>
-        <Section>
-          <div className="centered-image">
-            <img src="../../src/assets/MEAL.jpg" alt="BMI" />
-          </div>
-          <div>
-            <p>Meal Planning and Recipes</p>
-            <p>
+            </FeatureDescription>
+          </FeatureContent>
+        </FeatureSection>
+        <FeatureSection>
+          <FeatureImage>
+            <img src="../../src/assets/MEAL.jpg" alt="Meal Planning" />
+          </FeatureImage>
+          <FeatureContent>
+            <FeatureTitle>Meal Planning and Recipes</FeatureTitle>
+            <FeatureDescription>
               Access a vast collection of delicious and healthy recipes tailored
-              to your dietary needs
-            </p>
-          </div>
-        </Section>
-        <Section>
-          <div className="centered-image">
-            <img src="../../src/assets/LIFESTYLE.jpg" alt="BMI" />
-          </div>
-          <div>
-            <p>Lifestyle and Behavior</p>
-            <p>
+              to your dietary needs.
+            </FeatureDescription>
+          </FeatureContent>
+        </FeatureSection>
+        <FeatureSection>
+          <FeatureImage>
+            <img src="../../src/assets/LIFESTYLE.jpg" alt="Lifestyle" />
+          </FeatureImage>
+          <FeatureContent>
+            <FeatureTitle>Lifestyle and Behavior</FeatureTitle>
+            <FeatureDescription>
               Achieving sustainable results requires more than just a diet plan.
-            </p>
-          </div>
-        </Section>
-        <Section>
-          <div className="centered-image">
-            <img src="../../src/assets/CHATBOT.jpg" alt="BMI" />
-          </div>
-          <div>
-            <p>Interactive chatbot</p>
-            <p>
+            </FeatureDescription>
+          </FeatureContent>
+        </FeatureSection>
+        <FeatureSection>
+          <FeatureImage>
+            <img src="../../src/assets/CHATBOT.jpg" alt="Chatbot" />
+          </FeatureImage>
+          <FeatureContent>
+            <FeatureTitle>Interactive Chatbot</FeatureTitle>
+            <FeatureDescription>
               Chatbots serve various purposes, from answering customer queries
-              to providing entertainment
-            </p>
-          </div>
-        </Section>
-      </Feature>
+              to providing entertainment.
+            </FeatureDescription>
+          </FeatureContent>
+        </FeatureSection>
+      </FeatureContainer>
     </Container>
   );
 };
 
+export default Features;
+
+// Styled Components
 const Container = styled.div`
   padding: 2rem;
-  h2 {
-    padding: 50px 20px;
-    font-size: 40px;
-    font-weight: 700;
+  background: linear-gradient(135deg, #f5f7fa 10%, #c3cfe2 100%);
+`;
+
+const Title = styled.h2`
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 50px;
+
+  @media (max-width: 768px) {
+    font-size: 32px;
   }
 `;
 
-const Feature = styled.div`
+const FeatureContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  align-items: flex-start;
   justify-content: center;
+  padding: 0 20px;
 `;
 
-const Section = styled.div`
-  height: auto;
+const FeatureSection = styled.div`
   width: 30%;
-  height: 43vh;
-  border: 1px solid #ddd;
+  background-color: #ffffff;
   border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  background-color: #f9f9f9;
   text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 
-  .centered-image {
-    display: flex;
-    justify-content: center;
-  }
-
-  img {
-    max-width: 100px;
-  }
-
-  p:first-child {
-    font-size: 1.4rem;
-    font-weight: 700;
-    color: blue;
-    margin-bottom: 10px;
-  }
-
-  p:nth-child(2) {
-    font-size: 1.1rem;
-    font-weight: 500;
+  &:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
   }
 
   @media (max-width: 768px) {
@@ -132,4 +126,31 @@ const Section = styled.div`
   }
 `;
 
-export default Features;
+const FeatureImage = styled.div`
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+
+  img {
+    max-width: 100px;
+    height: auto;
+  }
+`;
+
+const FeatureContent = styled.div`
+  text-align: center;
+`;
+
+const FeatureTitle = styled.p`
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #3498db;
+  margin-bottom: 10px;
+`;
+
+const FeatureDescription = styled.p`
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #7f8c8d;
+  line-height: 1.6;
+`;

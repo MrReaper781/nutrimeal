@@ -3,89 +3,94 @@ import styled from "styled-components";
 const About = () => {
   return (
     <Container id="about">
-      <h1>ABOUT US</h1>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo consectetur corporis laboriosam? Temporibus, in quos perspiciatis modi ut ex aspernatur laudantium dicta atque libero tempora explicabo aut, eveniet similique. Quibusdam.
-        Eius non odio corporis reiciendis, vitae nostrum quia quam, nemo ullam beatae laborum nesciunt itaque est omnis, placeat quis ad sunt quo dolor dolore sapiente saepe ipsam consequatur. Debitis, necessitatibus.
-      </p>
+      <Title>ABOUT US</Title>
+      <Description>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo
+        consectetur corporis laboriosam? Temporibus, in quos perspiciatis modi
+        ut ex aspernatur laudantium dicta atque libero tempora explicabo aut,
+        eveniet similique. Quibusdam. Eius non odio corporis reiciendis, vitae
+        nostrum quia quam, nemo ullam beatae laborum nesciunt itaque est omnis,
+        placeat quis ad sunt quo dolor dolore sapiente saepe ipsam consequatur.
+        Debitis, necessitatibus.
+      </Description>
       <Button>
         <button>Read More</button>
       </Button>
-      
     </Container>
   );
 };
 
+export default About;
+
+// Styled Components
 const Container = styled.div`
-  height: 90vh;
-  color: white;
-  padding: 20px;
-  background-size: cover;
+  height: auto;
+  min-height: 90vh;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #f5f7fa 10%, #c3cfe2 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   box-sizing: border-box;
 
-  h1 {
-    text-align: center;
-    padding-top: 100px;
-    font-weight: 700;
-    font-size: 36px;
-    margin-bottom: 40px;
-    color: black;
-
-    @media (max-width: 768px) {
-      padding-top: 60px;
-      font-size: 28px;
-    }
+  @media (max-width: 768px) {
+    padding: 40px 20px;
   }
+`;
 
-  p {
-    text-align: center;
-    padding: 0 60px;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 1.6;
-    color: black;
+const Title = styled.h1`
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #2c3e50;
 
-    @media (max-width: 768px) {
-      padding: 0 20px;
-      font-size: 16px;
-    }
+  @media (max-width: 768px) {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+`;
+
+const Description = styled.p`
+  text-align: center;
+  max-width: 800px;
+  padding: 0 20px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.6;
+  color: #7f8c8d;
+
+  @media (max-width: 768px) {
+    font-size: 16px;
+    padding: 0 10px;
   }
 `;
 
 const Button = styled.div`
-  padding-top: 20px;
+  margin-top: 30px;
   display: flex;
-  align-items: center;
   justify-content: center;
-  gap: 20px;
 
   button {
-    background-color: #007bff;
+    background-color: #3498db;
     color: white;
-    border: 2px solid white;
-    margin: 10px;
-    padding: 10px 20px;
+    border: none;
+    padding: 12px 24px;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 600;
+    border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s, transform 0.3s;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 
     &:hover {
-      background-color: darkblue;
-      transform: scale(1.05);
+      background-color: #2980b9;
+      transform: translateY(-3px);
     }
-  }
 
-  @media (max-width: 768px) {
-    flex-direction: column;
-    gap: 10px;
-
-    button {
-      width: 80%;
+    @media (max-width: 768px) {
+      padding: 10px 20px;
       font-size: 14px;
-      padding: 8px 16px;
     }
   }
 `;
-
-export default About;

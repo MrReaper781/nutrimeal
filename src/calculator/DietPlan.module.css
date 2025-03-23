@@ -1,23 +1,114 @@
-.cell{
-    border: 1px solid black;
-    padding: 8px;
+/* General Styles */
+.cell {
+    border: 1px solid #ddd;
+    padding: 12px;
     text-align: left;
+    font-size: 14px;
+    color: #34495e;
 }
 
-.block{ 
-    text-align: center; 
-    margin-top: 20px; 
+.block {
+    text-align: center;
+    margin-top: 20px;
     padding-bottom: 30px;
 }
 
-.button2{
+.button2 {
     margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-.table{
-    width: '80%'; 
-    margin-top: 20px;
-    margin: '20px auto'; 
-    border-Collapse: 'collapse'; 
+.button2:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+}
+
+.button2:active {
+    transform: translateY(0);
+}
+
+.table {
+    width: 100%;
+    /* Full width on all devices */
+    margin: 20px auto;
+    border-collapse: collapse;
     background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table th,
+.table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+.table th {
+    background-color: #3498db;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Responsive Design for Mobile Devices */
+@media (max-width: 768px) {
+    .block {
+        padding: 10px;
+        /* Reduce padding for smaller screens */
+    }
+
+    .button2 {
+        width: 100%;
+        /* Full width buttons on mobile */
+        margin-left: 0;
+        /* Remove left margin */
+        margin-bottom: 10px;
+        /* Add space between stacked buttons */
+        font-size: 14px;
+        /* Smaller font size */
+        padding: 8px 16px;
+        /* Adjust padding */
+    }
+
+    .table {
+        width: 100%;
+        /* Full width table */
+        display: block;
+        /* Allow horizontal scrolling */
+        overflow-x: auto;
+        /* Enable horizontal scrolling */
+    }
+
+    .table th,
+    .table td {
+        padding: 8px;
+        /* Reduce padding for smaller screens */
+        font-size: 12px;
+        /* Smaller font size */
+        white-space: nowrap;
+        /* Prevent text wrapping */
+    }
+
+    .table th {
+        font-size: 14px;
+        /* Slightly larger font size for headers */
+    }
 }
